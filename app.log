@@ -1,0 +1,17 @@
+2020-11-22 22:51:44.737  INFO 69664 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on Divyas-MBP with PID 69664 (/Users/divyaiyengar/Documents/Code/JavaNano/assignments/eComm-app/target/classes started by divyaiyengar in /Users/divyaiyengar/Documents/Code/JavaNano/assignments/eComm-app)
+2020-11-22 22:51:44.748 DEBUG 69664 --- [main] com.example.demo.SareetaApplication      : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-11-22 22:51:44.749  INFO 69664 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-11-22 22:51:46.461  INFO 69664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-22 22:51:46.461  INFO 69664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-11-22 22:51:46.667  INFO 69664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-22 22:51:47.169  INFO 69664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-22 22:51:47.517  INFO 69664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-22 22:51:47.593  INFO 69664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-11-22 22:51:47.678  INFO 69664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-11-22 22:51:47.679  INFO 69664 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-11-22 22:51:47.859  INFO 69664 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-11-22 22:51:48.065  INFO 69664 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-11-22 22:51:49.657  INFO 69664 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 5.322 seconds (JVM running for 5.793)
+2020-11-22 22:56:15.601  INFO 69664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
