@@ -1,17 +1,22 @@
-2020-11-22 22:51:44.737  INFO 69664 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on Divyas-MBP with PID 69664 (/Users/divyaiyengar/Documents/Code/JavaNano/assignments/eComm-app/target/classes started by divyaiyengar in /Users/divyaiyengar/Documents/Code/JavaNano/assignments/eComm-app)
-2020-11-22 22:51:44.748 DEBUG 69664 --- [main] com.example.demo.SareetaApplication      : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2020-11-22 22:51:44.749  INFO 69664 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
-2020-11-22 22:51:46.461  INFO 69664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-11-22 22:51:46.461  INFO 69664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
-2020-11-22 22:51:46.667  INFO 69664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-11-22 22:51:47.169  INFO 69664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-11-22 22:51:47.517  INFO 69664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-11-22 22:51:47.593  INFO 69664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2020-11-22 22:51:47.678  INFO 69664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2020-11-22 22:51:47.679  INFO 69664 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2020-11-22 22:51:47.859  INFO 69664 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2020-11-22 22:51:48.065  INFO 69664 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-11-22 22:51:49.657  INFO 69664 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 5.322 seconds (JVM running for 5.793)
-2020-11-22 22:56:15.601  INFO 69664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 08:30:03.803  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h50m51s965ms).
+2020-11-24 10:05:34.505  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m30s709ms).
+2020-11-24 10:37:25.472  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s738ms).
+2020-11-24 11:24:56.372  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m30s713ms).
+2020-11-24 11:48:35.470  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m8s980ms).
+2020-11-24 12:00:35.547  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m77ms).
+2020-11-24 12:23:36.638  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m30s956ms).
+2020-11-24 13:30:07.779  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s703ms).
+2020-11-24 13:59:20.163  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m42s373ms).
+2020-11-24 14:05:08.533  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m18s357ms).
+2020-11-24 14:22:13.910  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m35s370ms).
+2020-11-24 14:24:38.639  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s716ms).
+2020-11-24 14:25:57.012  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s364ms).
+2020-11-24 14:38:27.647  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m555ms).
+2020-11-24 14:41:27.812  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m144ms).
+2020-11-24 15:33:33.990  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m5s899ms).
+2020-11-24 16:04:28.087  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m53s925ms).
+2020-11-24 17:39:35.718  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m37s156ms).
+2020-11-24 18:12:16.942  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m11s211ms).
+2020-11-24 18:34:58.744  WARN 69664 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m41s672ms).
+2020-11-24 20:57:20.425  INFO 69664 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-24 20:57:20.445  INFO 69664 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
